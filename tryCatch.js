@@ -23,11 +23,11 @@ function getMonthName(mo) {
 
 console.log(getMonthName(1));
 
-// try {
-//   // statements to try
-//   var myMonth = 13; // 15 is out of bound to raise the exception
-//   monthName = getMonthName(myMonth);
-// } catch (e) {
-//   monthName = "unknown";
-//   console.log(e.message); // pass exception object to err handler
-// }
+try {
+  // statements to try
+  var myMonth = 13; // 15 is out of bound to raise the exception
+  monthName = getMonthName(myMonth);
+} catch (e) {
+  monthName = "unknown";
+  console.log(e.message); // pass exception object to err handler
+}
