@@ -20,4 +20,4 @@ function run() {
 run();
 
 // Var - é acessivel em qualquer escopo, global scope
-// Let - só pode ser acessa dentro do escopo onde foi declarada, block scope
+// Let - só pode ser utilizada dentro do escopo onde foi declarada, block scope
